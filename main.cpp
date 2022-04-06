@@ -8,11 +8,11 @@ int main() {
     float somma = 0;
     cin >> n;
 
-    if(n >= 2) {
+    if(n >= 1) {
         cout << "1" << endl;
         cout << "1" << endl;
-        for ( int i=0; n >= (somma+a); i++) {
-            somma = a + b;
+        for ( int i=0; n >= (somma+a) and n!=1; i++) {
+            somma = a+b;
             cout << somma << endl;
             a = b;
             b = somma;
